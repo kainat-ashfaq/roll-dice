@@ -56,3 +56,17 @@ display: flex;
   -webkit-transform: rotateX(-180deg);
   transform: rotateX(-180deg);
 }
+@media screen and (max-width: 768px){
+  .container{
+display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+   background-color: rgb(0, 0, 0);
+    width: 70%;
+    height: 40vh;
+    border-radius: 10px;
+    box-shadow: 7px 7px 125px rgb(22, 20, 20);
+}
+
+}
